@@ -122,7 +122,7 @@ public class Main1 {
         for (int numCliente = 0; numCliente < 5; numCliente++) {
             int numProducto = pizzeria.calcProdMasVendidoCliente(numCliente);
             if (numProducto != -1) {
-                System.out.println("El producto más vendido del cliente " + pizzeria.getCliente(numCliente).getNombre() + ": " + pizzeria.getItem(numProducto).getNombre() + "\n");
+                System.out.println("El producto mas vendido del cliente " + pizzeria.getCliente(numCliente).getNombre() + ": " + pizzeria.getItem(numProducto).getNombre() + "\n");
             } else {
                 System.out.println("El cliente " + pizzeria.getCliente(numCliente).getNombre() + " no tiene productos\n");
             }
@@ -140,7 +140,7 @@ El producto Pizza hawaiana se vendio 2
 El producto Calzone se vendio 1
 El producto Pasta napolitana se vendio 1
 El producto Raviolis se vendio 4
-El producto más vendido del cliente Pedro: Raviolis
+El producto mas vendido del cliente Pedro: Raviolis
 
 num_cliente = 1
 El producto Lasagna se vendio 0
@@ -148,7 +148,7 @@ El producto Pizza hawaiana se vendio 0
 El producto Calzone se vendio 7
 El producto Pasta napolitana se vendio 1
 El producto Raviolis se vendio 0
-El producto más vendido del cliente Plutarco: Calzone
+El producto mas vendido del cliente Plutarco: Calzone
 
 num_cliente = 2
 El producto Lasagna se vendio 0
@@ -156,7 +156,7 @@ El producto Pizza hawaiana se vendio 1
 El producto Calzone se vendio 1
 El producto Pasta napolitana se vendio 1
 El producto Raviolis se vendio 1
-El producto más vendido del cliente Carolina: Pizza hawaiana
+El producto mas vendido del cliente Carolina: Pizza hawaiana
 
 num_cliente = 3
 El producto Lasagna se vendio 1
@@ -164,7 +164,7 @@ El producto Pizza hawaiana se vendio 1
 El producto Calzone se vendio 1
 El producto Pasta napolitana se vendio 0
 El producto Raviolis se vendio 5
-El producto más vendido del cliente Lina: Raviolis
+El producto mas vendido del cliente Lina: Raviolis
 
 num_cliente = 4
 El producto Lasagna se vendio 0

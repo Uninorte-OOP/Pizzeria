@@ -20,6 +20,12 @@ public abstract class Pedido {
     public Pedido(Cliente cliente, ArrayList<Item> items) {
         this.cliente = cliente;
         this.items = items;
+        
+        this.cliente.addPedido(this);
+    }
+
+    public ArrayList<Item> getItems() {
+        return items;
     }
     
 }
